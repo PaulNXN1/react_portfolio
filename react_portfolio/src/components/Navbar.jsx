@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import logo from '../assets/logo.png'
-import { FaBars, FaTimes, FaGithub } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs' 
 
@@ -48,13 +48,31 @@ const Navbar = () => {
 
             {/* Icon menu */}
 
-            <div className='flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
 
                 <ul>
                     <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
                         <a className='flex justify-between items-center w-full text-black'
                         href='/'>
                              GitHub <FaGithub size={40} />                
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
+                        <a className='flex justify-between items-center w-full text-black'
+                        href='/'>
+                             LinkedIn <FaLinkedin size={40} />                
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FFA533]'>
+                        <a className='flex justify-between items-center w-full text-black'
+                        href='/'>
+                             Email <HiOutlineMail size={40} />                
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#33FFF3]'>
+                        <a className='flex justify-between items-center w-full text-black'
+                        href='/'>
+                             Resume <BsFillPersonLinesFill size={40} />                
                         </a>
                     </li>
                 </ul>
