@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import logo from '../assets/logo.png'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
@@ -10,8 +10,12 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
+    useEffect(() => {
+        console.log(document.getElementById('nav').style.display, '********************')
+    })
+
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2b5390] text-gray-300'>
+        <div id = 'nav' className=' w-full h-[100px] flex justify-between items-center px-4 bg-[#2b5390] text-gray-300'>
 
             <div> <img src={logo} alt="Logo" style={{ width: '75px' }} />
 
@@ -51,13 +55,13 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
 
                 <ul>
-                    <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
+                    <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8BA4A3] '>
                         <a className='flex justify-between items-center w-full text-black'
                         href='/'>
                              GitHub <FaGithub size={40} />                
                         </a>
                     </li>
-                    <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
+                    <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#65CEFF]'>
                         <a className='flex justify-between items-center w-full text-black'
                         href='/'>
                              LinkedIn <FaLinkedin size={40} />                
