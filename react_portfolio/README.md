@@ -34,9 +34,7 @@ The assignment is complete when all aspects of the UPENN Module #20 Acceptance C
 
 URL to GitHub Repository:  https://github.com/PaulNXN1/react_portfolio
 
-
-URL to Deployed Application:  https://paulnxn1.github.io/react_portfolio/
-
+URL to Deployed Application: https://paulnxn1.github.io/react_portfolio/
 
 Video Demonstration of the Portfolio:
 
