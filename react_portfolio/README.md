@@ -38,9 +38,6 @@ URL to Deployed Application:
 
 Video Demonstration of the Portfolio:
 
-
-
-
 https://github.com/PaulNXN1/react_portfolio/assets/84299358/5d64160c-4a80-44e5-8908-dc456117d1f0
 
 
