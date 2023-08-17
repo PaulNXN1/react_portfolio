@@ -11,6 +11,14 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
+    function handleDownload(event){
+        event.preventDefault()
+        let link = document.createElement('a');
+        link.href = '../assets/portfolioResume.pdf';
+        link.download = 'portfolioResume.pdf';
+        link.dispatchEvent(new MouseEvent('click'));
+      }
+
 
     return (
         <div id='nav' className=' w-full h-[100px] flex justify-between items-center px-4 bg-[#2b5390] text-gray-300'>
@@ -35,7 +43,11 @@ const Navbar = () => {
                     <li><Link to="contact" smooth={true} duration={700} >
                         Contact
                     </Link></li>
-                    <li>Resume</li>
+                    
+                    <li><Link to="resume" smooth={true} duration={700} >
+                        Resume
+                    </Link></li>
+                 
                 </ul>
 
             </div>
@@ -79,7 +91,7 @@ const Navbar = () => {
                             Email <HiOutlineMail size={40} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#33FFF3]'>
+                    <li onClick = {(event) => {handleDownload(event)}} className='w-[160px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#33FFF3]'>
                         <a className='flex justify-between items-center w-full text-black'
                             href='/'>
                             Resume <BsFillPersonLinesFill size={40} />
