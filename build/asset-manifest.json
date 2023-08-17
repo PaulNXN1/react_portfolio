@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.742ea036.css",
+    "main.js": "/react_portfolio/static/js/main.294db8c9.js",
+    "static/media/food_focus.png": "/react_portfolio/static/media/food_focus.03135674bf20d8d581d1.png",
+    "static/media/logo.png": "/react_portfolio/static/media/logo.03b93a37c1a9f2643aa7.png",
+    "static/media/weather.png": "/react_portfolio/static/media/weather.3dabc1967e32e6641a7e.png",
+    "static/media/password.png": "/react_portfolio/static/media/password.9c0b664953de102a5497.png",
+    "static/media/noteTaker.png": "/react_portfolio/static/media/noteTaker.574a18bbc73d5893e3a9.png",
+    "static/media/JATE.jpg": "/react_portfolio/static/media/JATE.dc2025c0d0f95237adf9.jpg",
+    "static/media/html.png": "/react_portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/react_portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/svg.png": "/react_portfolio/static/media/svg.5ef850fa0878d3e50e75.png",
+    "static/media/javascript.png": "/react_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/react_portfolio/index.html",
+    "main.742ea036.css.map": "/react_portfolio/static/css/main.742ea036.css.map",
+    "main.294db8c9.js.map": "/react_portfolio/static/js/main.294db8c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.742ea036.css",
+    "static/js/main.294db8c9.js"
+  ]
+}
