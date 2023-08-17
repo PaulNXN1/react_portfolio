@@ -8,10 +8,14 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 
+/* Navbar with state */
+
 const Navbar = () => {
 
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
+
+    /* download resume */
 
     function handleDownload(event){
         event.preventDefault()
