@@ -1,4 +1,8 @@
+/* import */
+
 import React from 'react'
+
+/* About Page Component */
 
 const About = () => {
     return (

@@ -1,3 +1,5 @@
+/* import */
+
 import React from 'react'
 import food_focus from "../assets/food_focus.png"
 import JATE from "../assets/JATE.jpg"
@@ -6,7 +8,7 @@ import noteTaker from "../assets/noteTaker.png"
 import password from "../assets/password.png"
 import weather from "../assets/weather.png"
 
-
+/* Project Component*/
 
 const Projects = () => {
   return (

@@ -7,3 +7,4 @@ module.exports = {
   plugins: [],
 }
 
+/* tailwind css config*/
