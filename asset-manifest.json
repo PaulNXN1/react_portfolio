@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.5600547a.css",
-    "main.js": "/react_portfolio/static/js/main.380ecedc.js",
+    "main.js": "/react_portfolio/static/js/main.94862e05.js",
     "static/media/food_focus.png": "/react_portfolio/static/media/food_focus.03135674bf20d8d581d1.png",
     "static/media/logo.png": "/react_portfolio/static/media/logo.03b93a37c1a9f2643aa7.png",
     "static/media/weather.png": "/react_portfolio/static/media/weather.3dabc1967e32e6641a7e.png",
@@ -14,10 +14,10 @@
     "static/media/javascript.png": "/react_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react_portfolio/index.html",
     "main.5600547a.css.map": "/react_portfolio/static/css/main.5600547a.css.map",
-    "main.380ecedc.js.map": "/react_portfolio/static/js/main.380ecedc.js.map"
+    "main.94862e05.js.map": "/react_portfolio/static/js/main.94862e05.js.map"
   },
   "entrypoints": [
     "static/css/main.5600547a.css",
-    "static/js/main.380ecedc.js"
+    "static/js/main.94862e05.js"
   ]
 }
