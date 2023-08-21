@@ -5,7 +5,8 @@ import logo from '../assets/logo.png';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
+import {Link} from "react-router-dom";
 
 
 /* Navbar with state */
@@ -29,7 +30,7 @@ const Navbar = () => {
     return (
         <div id='nav' className=' w-full h-[100px] flex justify-between items-center px-4 bg-[#2b5390] text-gray-300'>
 
-            <div> <img src={logo} alt="Logo" style={{ width: '75px' }} />
+            <div> <Link to = "/"> <img src={logo} alt="Logo" style={{ width: '75px' }} /> </Link>
 
             </div>
 
@@ -39,18 +40,18 @@ const Navbar = () => {
 
                 <ul className='hidden md:flex'>
                     <li>
-                        <Link to="about" smooth={true} duration={700} >
+                        <Link to="/about" >
                             About Me
                         </Link>
                     </li>
-                    <li> <Link to="projects" smooth={true} duration={700} >
+                    <li> <Link to="/projects" >
                         Portfolio
                     </Link></li>
-                    <li><Link to="contact" smooth={true} duration={700} >
+                    <li><Link to="/contact"  >
                         Contact
                     </Link></li>
                     
-                    <li><Link to="resume" smooth={true} duration={700} >
+                    <li><Link to="/resume"  >
                         Resume
                     </Link></li>
                  

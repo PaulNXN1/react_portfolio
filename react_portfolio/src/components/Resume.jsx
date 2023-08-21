@@ -9,7 +9,7 @@ const Resume = () => {
 
 
   return (
-    <div name="resume" className='text-white'>
+    <div name="resume" className=' h-screen text-white'>
       <p style = {{textAlign: 'center'}}>
         Please click on the resume link to your left.
         I currently specialize in HTML, CSS, JavaScript, React.JS, and Node.js
