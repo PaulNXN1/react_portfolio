@@ -7,7 +7,7 @@ import svg from "../assets/svg.png"
 import noteTaker from "../assets/noteTaker.png"
 import password from "../assets/password.png"
 import weather from "../assets/weather.png"
-import knowonthego from "../assets/knowonthego.jpg"
+import knowonthegoimage from "../assets/knowonthegoimage.jpg"
 
 /* Project Component*/
 
@@ -63,7 +63,7 @@ const Projects = () => {
           </div>
 
           <div className='shadow-md shadow-[#c6eaea] hover:scale-150 duration-700'>
-          <a href="https://childs-play-207b603b0a7d.herokuapp.com/"><img className='w-250 mx-auto'  src={knowonthego} alt="project3" /> </a>
+          <a href="https://childs-play-207b603b0a7d.herokuapp.com/"><img className='w-250 mx-auto'  src={knowonthegoimage} alt="project3" /> </a>
             <p className='text-2xl text-white'>Know on the Go!</p>
             <br></br>
           </div>
