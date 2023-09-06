@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.5600547a.css",
-    "main.js": "/react_portfolio/static/js/main.94862e05.js",
+    "main.js": "/react_portfolio/static/js/main.e3d686a7.js",
     "static/media/food_focus.png": "/react_portfolio/static/media/food_focus.03135674bf20d8d581d1.png",
     "static/media/logo.png": "/react_portfolio/static/media/logo.03b93a37c1a9f2643aa7.png",
+    "static/media/knowongoimage2.jpg": "/react_portfolio/static/media/knowongoimage2.08b10f62922d5890a2ac.jpg",
     "static/media/weather.png": "/react_portfolio/static/media/weather.3dabc1967e32e6641a7e.png",
     "static/media/password.png": "/react_portfolio/static/media/password.9c0b664953de102a5497.png",
     "static/media/noteTaker.png": "/react_portfolio/static/media/noteTaker.574a18bbc73d5893e3a9.png",
@@ -14,10 +15,10 @@
     "static/media/javascript.png": "/react_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react_portfolio/index.html",
     "main.5600547a.css.map": "/react_portfolio/static/css/main.5600547a.css.map",
-    "main.94862e05.js.map": "/react_portfolio/static/js/main.94862e05.js.map"
+    "main.e3d686a7.js.map": "/react_portfolio/static/js/main.e3d686a7.js.map"
   },
   "entrypoints": [
     "static/css/main.5600547a.css",
-    "static/js/main.94862e05.js"
+    "static/js/main.e3d686a7.js"
   ]
 }
